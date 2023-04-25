@@ -17,3 +17,12 @@ input[type="password"]{
 .todo {
     color: red;
 }
+.box {
+    width: 200px;
+    height: 200px;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
