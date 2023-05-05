@@ -6,149 +6,29 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<h1>Full Stack Bootcamp</h1>
-<div id="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio dolores doloribus eligendi expedita id ipsa, modi neque non obcaecati provident qui quo reiciendis reprehenderit rerum soluta tenetur? Nesciunt!</div>
-<div id="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio dolores doloribus eligendi expedita id ipsa, modi neque non obcaecati provident qui quo reiciendis reprehenderit rerum soluta tenetur? Nesciunt!</div>
-<div id="three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio dolores doloribus eligendi expedita id ipsa, modi neque non obcaecati provident qui quo reiciendis reprehenderit rerum soluta tenetur? Nesciunt!</div>
-
-<h4>1. Adjacent selector or Combinator selector</h4>
-<p>Select only the paragraphs that are immediately preceded by an h1</p>
-<p> h1 + p {color: white}</p>
-
-<h4>2. Direct Child</h4>
-<p>Select only the li that are direct children of div element</p>
-<p> div > li {color: white}</p>
-
-<h4>3. Attribute Selector</h4>
-<p>Select all input elements where the type attribute is set to "text"</p>
-<p>input[type="text"]{width: 300px; color: yellow}</p>
-
-<h4>4. Pseudo Classes</h4>
-<p>keyword added to a selector that specifies a special state of the selected elements</p>
-<p> :active :checked :first :first-child :hover :not() :nth-child() :nth-of-type()</p>
-
-<h4>5. Pseudo Elements</h4>
-<p>Keyword added to a selector that lets you style a particular part of selected element(s)</p>
-<p> ::after ::before ::first-letter ::first-line ::selection</p>
-
-<h4>6. Specificity</h4>
-<p>is how the browser decides which rules to apply when multiple rules could apply to the same element</p>
+<!--HOVER ME BUTTON-->
+<!--<div class="button">-->
+<!--    <button>Hover Me</button>-->
+<!--</div>-->
 
 
-<form id="form" action="https://">
-    <label for="username">Enter a Username:</label>
-    <input id="username" type="text" placeholder="username" name="username" minlength="5" maxlength="20"><br>
-    <label for="password">Enter a Password:</label>
-    <input id="password" type="useremail" placeholder="email"><br>
-    <label for="color">Pick a color:</label>
-    <input id="color" type="color"><br>
-    <label for="number">Enter a phone number:</label>
-    <input id="number" type="number" placeholder="phone number"><br>
-</form>
-<hr>
-
-<form action="https://www.reddit.com/search">
-    <label form="">Reddit Search Form</label>
-    <input type="text" name="">
-    <button>Search Reddit</button>
-</form>
-<hr>
-
-<form action="/birds">
-<label for="checkbox">Checkbox</label>
-    <input id="checkbox" type="checkbox" name="agree_tos" id="agree">
-    <label for="checkbox">I agree to everything</label>
-    <button>Submit</button>
-</form>
-<hr>
-
-<form action="/dogs">
-    <label for="buy">Buy</label>
-    <input id="buy" type="radio" value="b">
-
-    <label for="sell">Sell</label>
-    <input id="sell" type="radio" value="s">
-
-    <label for="auction">Auction</label>
-    <input id="auction" type="radio" value="a">
-
-    <button>Submit</button>
-</form>
-<hr>
-
-<form action="">
-    <label for="">Please Select an Entree</label>
-    <select name="mean" id="meal">
-        <option value="fish">Fish</option>
-        <option value="chicken">Chicken</option>
-        <option value="vegan">Veggie</option>
-    </select>
-    <button>Submit</button>
-</form>
-<hr>
-
-<form action="">
-    <label for="cheese">Amount of Cheese:</label>
-    <input type="range" id="cheese" min="1" max="10" name="cheese_level">
-    <button>Submit</button>
-    <br>
-    <label for="requests">Any Special Request</label>
-    <textarea id="requests"></textarea>
-</form>
-<hr>
+<!--/*FLEXBOX TUTORIAL*/-->
+<!--<h1>Let's Play With Flexbox</h1>-->
+<!--<section id="container">-->
+<!--    <div style="background-color: #80ffdb"></div>-->
+<!--    <div style="background-color: #64dfdf"></div>-->
+<!--    <div style="background-color: #48bfe3"></div>-->
+<!--    <div style="background-color: #5390d9"></div>-->
+<!--    <div style="background-color: #6930c3"></div>-->
+<!--</section>-->
 
 
-<!-- <h1>My Webpage</h1>-->
-<!-- <form id="signup-form" action="/NOOOO" method="get">-->
-<!-- <input type="text" placeholder="credit card" id="cc"><br>-->
-<!-- <label>-->
-<!--     I agree to sell my properties to your company-->
-<!--     <input type="checkbox" id="terms">-->
-<!-- </label>-->
-<!-- <select name="" id="veggie">-->
-<!--     <option value="eggplant">Eggplant</option>-->
-<!--     <option value="asparagus">Asparagus</option>-->
-<!--     <option value="carrot">Carrot</option>-->
-<!-- </select><br>-->
-<!-- <input type="submit">-->
-<!-- </form>-->
- <!-- <input id="username" placeholder="username" type="text">-->
-<!-- <button>Click Me</button>-->
-<!-- <button>Try to click me</button>-->
-
-<!-- <form action="">-->
-<!--     <input max="50" min="10" type="range">-->
-<!-- </form>-->
-<!-- <section id="box"></section>-->
-
-
-<!-- <p>Lorem ipsum dolor sit amet, <b>This is a bold statement</b> consectetur adipisicing elit. Atque commodi culpa cum dicta distinctio doloremque ea eligendi est labore libero maxime minus, necessitatibus nihil officia perspiciatis, quod soluta suscipit voluptatem.</p>-->
-<!-- <p id="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci at consequuntur debitis eveniet facere, illo maxime nemo, nobis optio veniam vero voluptas voluptatum. Corporis natus provident ratione soluta suscipit!</p>-->
-
-
-
-<!-- <form action="">-->
-<!--     <input type="text" placeholder="Bear Name">-->
-<!--     <input type="password" placeholder="password">-->
-<!--     <input type="submit">-->
-<!--     <input type="checkbox">-->
-<!--     <input type="range" min="100" max="500" step="50">-->
-<!--     <input type="submit">-->
-<!-- </form>-->
-<!-- <ul>-->
-<!--     <li class="todo">Mow the lawn</li>-->
-<!--     <li class="todo">Milk the cows</li>-->
-<!--     <li class="todo">Feed the Alpacas</li>-->
-<!-- </ul>-->
-<!-- <ul>-->
-<!--    <li class="special">First Thing</li>-->
-<!--    <li>Second Thing</li>-->
-<!--    <li class="special">Third Thing</li>-->
-<!--    <img src="image1.png" alt="">-->
-<!--</ul>-->
- <script src="app.js" id="bear-photo"></script>
+<script src="app.js"></script>
 </body>
 </html>

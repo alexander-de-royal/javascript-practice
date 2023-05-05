@@ -207,4 +207,118 @@
 // makeRant('I hate mayo', document.body);
 // makeRant('If you have water', document.body);
 
+// JavaScript Basics
+
+// Working with JavaScript Variables and Data types
+// Concatenation means combining multiple strings.
+// id = 7 + 3;
+// id = id - 2;
+// id = id * 4;
+// id = id / 4;
+// console.log(id);
+// fiveDs = ["Dodge", "Duck", "Dip", "Dive", "Dodge"];
+// console.log(fiveDs);
+// console.log(fiveDs.length);
+// console.log(fiveDs[0]);
+// console.log(fiveDs[0] + fiveDs[2]);
+
+// Basic JavaScript if Statements
+// Falsey values in JavaScript
+// false, null, undefined, 0, "", '', NaN
+// var first_name = "Ricky";
+// var last_name: "Bobby";
+// var age = 45;
+// var first = true;
+// var last = false;
+//
+// if (age === 45){
+// } else {
+// }
+
+// Logical Operators AND and OR with Compound if Statements
+// let ingredients = ['lettuce', 'cheddar', 'ham'];
+//
+// let sandwichHas = function(ingredients){
+//     for (let i of ingredients){
+//         if (i == ingredients){
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+// if (sandwichHas('cheddar') || sandwichHas('chicken') || sandwichHas('beef')){
+//     console.log('Sandwich has meat')
+// } else {
+//     console.log('Sandwich has no meat')
+// }
+
+// Ternary Statements
+// (first == last) ? console.log(true): console.log(false);
+
+// Introduction to Arrays with JavaScript
+// var characters = ['Luke', 'Lefa', 'Han', 'Chewie'];
+// console.log(characters);
+// console.log(characters.length);
+// console.log(characters.length-1);
+// console.log(characters.push('Anakin'));
+// console.log(characters);
+// console.log(characters.pop('Obiwan'));
+// console.log(characters);
+// characters.unshift('CP30');
+// characters.unshift('R2D2');
+// characters.shift();
+// console.log(characters);
+
+// Manipulating and sorting arrays in JavaScript
+// Splicing removes items 0 and 1 and replaces with Rey
+// var characters = ['Luke', 'Lefa', 'Han', 'Chewie'];
+// console.log(characters);
+// characters.splice(0, 1, 'Rey');
+// console.log(characters);
+// characters.splice(2, 2, 'C3PO');
+// console.log(characters);
+// characters.push('BBB');
+// characters.push('Obiwan');
+// console.log(characters);
+// characters.reverse()
+// console.log(characters);
+// console.sort();
+// console.log(characters);
+// let position = characters.indexOf('Luke');
+// console.log(position);
+
+// Playing with JavaScript Object
+// Objects are inside curly brackets.
+// var dog = {
+//     "name": "Woody",
+//     "type":"dog"
+// };
+// var cat = {
+//     "name": "Bob",
+//     "type": "cat"
+// };
+//
+// var petNames = ["Woody", "Bob"]
+// console.log(petNames);
+// var pets = [dog, cat];
+// console.log(pets);
+//
+// pets.push({"name":"Roxy", "type":"dog"});
+// console.log(pets[2]);
+//
+// cat.age = 2;
+// dog["age"] = 14;
+// console.log(pets);
+//
+// pets[0].age = 14;
+// pets[2]["age"] = 6;
+// console.log(pets);
+//
+// pets[1].age = 3;
+// pets[1].hungry = true;
+// console.log(pets);
+
+
+
+
 

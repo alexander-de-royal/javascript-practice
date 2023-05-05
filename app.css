@@ -1,73 +1,46 @@
-/*h1{*/
-/*    color: purple;*/
-/*    font-size: 60px;*/
-/*}*/
-/*#bear-photo{*/
-/*    width: 500px;*/
-/*}*/
-/*.special{*/
-/*    color: teal;*/
-/*    font-size: 30px;*/
-/*    border: 1px solid teal;*/
-/*}*/
-/*input[type="password"]{*/
-/*    height: 50px;*/
-/*    width: 100px;*/
-/*}*/
-/*.todo {*/
-/*    color: red;*/
-/*}*/
-/*.box {*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*}*/
-/*#box{*/
+/*HOVER ME BUTTON*/
+/*body{*/
+/*    font-family: Foldit;*/
 /*    display: flex;*/
-/*    justify-content: center;*/
 /*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*    background-color: #1f1b29;*/
+/*    }*/
+/*button{*/
+/*    background: none;*/
+/*    color: #ffa260;*/
+/*    border: 2px solid;*/
+/*    padding: 1em 2em;*/
+/*    font-size: 1em;*/
+/*    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;*/
+/*}*/
+/*button:hover{*/
+/*    border-color: #f1ff5c;*/
+/*    color: white;*/
+/*    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;*/
+/*    transform: translateY(-0.25em);*/
+/*    cursor: pointer;*/
 /*}*/
 
-* {
-    color: orangered;
-}
-button {
-    font-size: 15px;
-    background-color: aliceblue;
+/*FLEXBOX TUTORIAL*/
+body{
+    font-family: 'open sans', sans-serif;
 }
 h1{
-    font-size: 2em;
+    text-align: center;
 }
-h1, h2, h4{
-    color: teal;
+#container{
+    background-color: #003048;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-p {
-    font-size: 1em;
-    color: cadetblue;
-}
-
-input[type="username"]{
-    color: cornflowerblue;
-}
-h4:nth-of-type(4){
-    color: crimson;
-}
-div{
+#container div{
     width: 200px;
     height: 200px;
 }
-#one{
-    border: 1px solid black;
-    padding: 100px 80px 60px 40px;
-}
-#two{
-    border: 1px solid blue;
-    padding: 100px;
-}
-#three{
-    border: 1px solid seagreen;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
