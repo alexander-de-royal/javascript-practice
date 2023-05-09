@@ -318,6 +318,69 @@
 // pets[1].hungry = true;
 // console.log(pets);
 
+// JavaScript for loops
+// let names = ['Jeff Lebowski', 'Donnie Kerabatsos', 'Walter Sobchak', 'Bunny Lebowski', 'Jackie Treehorn'];
+// let numNames = names.length;
+// for(let i = 0; i = numNames; i++){
+// console.log(names[i])
+// }
+
+// Manipulating and Sorting Arrays in JavaScript
+// var monsters = {
+//     'Canada':'Sasquatch',
+//     'Nepal':'Yeti',
+//     'Scotland':'Loch Ness Monster'
+// };
+// var pets = ["Woody", "Roxy", "Bob"];
+// // console.log(monsters.length);
+// // var in object
+// for (let properties in monsters){
+//     // console.log(properties);
+//     // console.log(monsters[properties]);
+//     console.log("In", properties, "we have the", monsters[properties]);
+// }
+
+// JavaScript While and Do.. While Loops
+// let total = 0;
+//
+// // while (total < 30){
+// //     total += Math.floor(Math.random() * 5) + 1;
+// //     console.log(total);
+// // }
+//
+// do{
+//     total += Math.floor(Math.random() * 5) + 1;
+//     console.log(total)
+// }
+// while(total < 30);
+
+// Introduction to functions in JavaScript
+// let beer_cost = 6.75;
+// let burger_cost = 5.00;
+// let pop_cost = 3.00;
+// let account_balance = 15.75;
+//
+// function drink_beer(){
+//     account_balance = account_balance - beer_cost;
+//     console.log(account_balance);
+// }
+// // Call function
+// drink_beer();
+
+// Javascript Section-19
+// for(let i = 1; i <= 10; i++){
+//     // console.log("I am in the loop body");
+//     // console.log(i)
+//     console.log("where am I"[i]);
+// }
+for(;;){
+
+}
+
+
+
+
+
 
 
 
