@@ -373,9 +373,8 @@
 //     // console.log(i)
 //     console.log("where am I"[i]);
 // }
-for(;;){
 
-}
+// jQuery
 
 
 
