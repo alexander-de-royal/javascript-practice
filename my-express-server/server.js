@@ -9,6 +9,9 @@ app.get("/contact", function (req, res){
 app.get("/about", function (req, res){
     res.send("this is about page")
 });
+app.get("/hobbies", function (req, res){
+    res.send("this is about page")
+});
 app.listen(3000, function(){
     console.log("Server started on port 3000");
 });
