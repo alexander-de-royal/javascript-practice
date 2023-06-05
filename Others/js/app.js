@@ -375,6 +375,68 @@
 // }
 
 // jQuery
+//Array.prototype
+//String.prototype
+//String.prototype.grumpus
+//String.prototype
+// String.prototype.yell = function(){
+//     console.log(this.toUpperCase());
+//     return `OMG! ${this.toUpperCase()}`;
+// }
+// Array.prototype.pop = function(){
+//     return `Sorry I want that element`
+// }
+//
+// const navColor = new Color('carrot', [230, 126, 34]);
+// const logoColor = new Color('emerald', [230, 126, 34]);
+//
+// function Color(r,g,b){
+//
+//     this.r = r;
+//     this.g = g;
+//     this.b = b;
+//     console.log(this)
+// }
+// new Color(255,40,100);
+//
+// Color.prototype.rgb = function(){
+//     const {r,g,b}
+// }
+
+//Prototype
+// String.prototype.yell = function(){
+//     return `${this.toUpperCase()}`
+// }
+// Array.prototype.pop = function(){
+//     return `Sorry, I want that element, I will never pop it off!`
+// }
+
+// Constructor Function
+// const navColor = new Color('carrot', [230,126,34]);
+// const navColor = new Color('emerald', [46,204,113]);
+
+//Factory Function
+// function hex(r,g,b){
+//     return '#' + ((1 << 24) + ( r << 16) + (g <<8) + b).toString(16).slice(1);
+// }
+// function rgb(r,g,b){
+//     return `rgb(${r},${g},${b}`;
+// }
+// function makeColor(r,g,b){
+//     const color = {};
+//     color.r = r;
+//     color.g = g;
+//     color.b = b;
+//     color.rgb = function(){
+//         const {r,g,b} = this;
+//         return `rgb(${r},${g},${b}`;
+//     }
+//     return color;
+// }
+// const firstColor = makeColor(35,255,150);
+// firstColor.rgb();
+
+// Constructor Function
 
 
 
