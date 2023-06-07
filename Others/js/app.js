@@ -438,7 +438,42 @@
 
 // Constructor Function
 
+// Javascript II
+let numbers = [1,2,3,4,5,6,7,8,9];
+let evens = [];
+// For Loop
+for(let i = 0; i < numbers.length; i += 1){
+    if (numbers[i] % 2 === 0){
+        evens.push(numbers[i]);
+    }
+}
+// Filter
+let evenNumbers = numbers.filter(function(n){
+    return n % 2 === 0;
+})
+// Map
+let incremented = numbers.map(function(n){
+    return n + 1;
+})
+// Reduce
+const sum = numbers.reduce((accumulate, currentNumber) => {
+    return accumulate + currentNumber;
+}, 0)
+console.log(evens);
+console.log(evenNumbers);
+console.log(incremented);
+// Reduce function in real world
+const salesPeople = [
+    {name: 'Jim Halpert', sales: 100},
+    {name: 'Dwight Schrute', sales: 50},
+    {name: 'Andy Bernard', sales: 150},
+];
 
+const totalSales = salesPeople.reduce((total, person) => {
+    console.log("total is = " + total);
+    console.log(person.name + "has sold " + person.sales);
+    return total + person.sales;
+}, 0);
 
 
 
